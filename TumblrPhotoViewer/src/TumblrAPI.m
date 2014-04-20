@@ -8,6 +8,7 @@
 
 #import "TumblrAPI.h"
 #import "TumblrAPIImage.h"
+#import "NSString+URLEncode.h"
 
 static NSString *const kAPIKey = @"Enter your API key";
 
@@ -15,8 +16,8 @@ static NSString *const kAPIKey = @"Enter your API key";
 + (TumblrImageQueryResponse *)imageQueryWithBlogname:(NSString *)blogname
                                               offset:(int)offset
 {
-    NSString *URLString = [NSString stringWithFormat:@"https://api.tumblr.com/v2/blog/%@.tumblr.com/posts/photo?api_key=%@&offset=%d", blogname, kAPIKey, offset];
-    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:URLString]];
+    NSString *URLString = [NSString stringWithFormat:@"https://api.tumblr.com/v2/blog/%@.tumblr.com/posts/photo?api_key=%@&offset=%d", [blogname stringByURLEncode], kAPIKey, offset];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:URLString]];
     NSURLResponse *response;
     NSError *error;
     NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
