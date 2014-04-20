@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A620E0ED1903E6F100641A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A620E0EC1903E6F100641A95 /* Foundation.framework */; };
+		A620E0EF1903E6F100641A95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A620E0EE1903E6F100641A95 /* CoreGraphics.framework */; };
+		A620E0F11903E6F100641A95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A620E0F01903E6F100641A95 /* UIKit.framework */; };
+		A620E0F71903E6F100641A95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A620E0F51903E6F100641A95 /* InfoPlist.strings */; };
+		A620E0F91903E6F100641A95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E0F81903E6F100641A95 /* main.m */; };
+		A620E0FD1903E6F100641A95 /* USTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E0FC1903E6F100641A95 /* USTAppDelegate.m */; };
+		A620E1001903E6F100641A95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A620E0FE1903E6F100641A95 /* Main.storyboard */; };
+		A620E1031903E6F100641A95 /* USTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1021903E6F100641A95 /* USTViewController.m */; };
+		A620E1051903E6F100641A95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A620E1041903E6F100641A95 /* Images.xcassets */; };
+		A620E10C1903E6F100641A95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A620E10B1903E6F100641A95 /* XCTest.framework */; };
+		A620E10D1903E6F100641A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A620E0EC1903E6F100641A95 /* Foundation.framework */; };
+		A620E10E1903E6F100641A95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A620E0F01903E6F100641A95 /* UIKit.framework */; };
+		A620E1161903E6F100641A95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A620E1141903E6F100641A95 /* InfoPlist.strings */; };
+		A620E1181903E6F100641A95 /* TumblrPhotoViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1171903E6F100641A95 /* TumblrPhotoViewerTests.m */; };
+		A620E1351903E74000641A95 /* CGImageWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1231903E74000641A95 /* CGImageWrapper.m */; };
+		A620E1361903E74000641A95 /* NSData+Download.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1251903E74000641A95 /* NSData+Download.m */; };
+		A620E1371903E74000641A95 /* TumblrAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1271903E74000641A95 /* TumblrAPI.m */; };
+		A620E1381903E74000641A95 /* TumblrAPIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1291903E74000641A95 /* TumblrAPIImage.m */; };
+		A620E1391903E74000641A95 /* TumblrImageQueryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E12B1903E74000641A95 /* TumblrImageQueryResponse.m */; };
+		A620E13A1903E74000641A95 /* TumblrImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E12D1903E74000641A95 /* TumblrImageViewCell.m */; };
+		A620E13B1903E74000641A95 /* TumblrImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A620E12E1903E74000641A95 /* TumblrImageViewCell.xib */; };
+		A620E13C1903E74000641A95 /* TumblrImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1301903E74000641A95 /* TumblrImageViewController.m */; };
+		A620E13D1903E74000641A95 /* TumblrImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A620E1311903E74000641A95 /* TumblrImageViewController.xib */; };
+		A620E13E1903E74000641A95 /* TumblrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1331903E74000641A95 /* TumblrViewController.m */; };
+		A620E13F1903E74000641A95 /* TumblrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A620E1341903E74000641A95 /* TumblrViewController.xib */; };
+		A620E1441903E74500641A95 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A620E1411903E74500641A95 /* LICENSE */; };
+		A620E1451903E74500641A95 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A620E1431903E74500641A95 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A620E10F1903E6F100641A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A620E0E11903E6F100641A95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A620E0E81903E6F100641A95;
+			remoteInfo = TumblrPhotoViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A620E0E91903E6F100641A95 /* TumblrPhotoViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TumblrPhotoViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A620E0EC1903E6F100641A95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A620E0EE1903E6F100641A95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A620E0F01903E6F100641A95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A620E0F41903E6F100641A95 /* TumblrPhotoViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TumblrPhotoViewer-Info.plist"; sourceTree = "<group>"; };
+		A620E0F61903E6F100641A95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A620E0F81903E6F100641A95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A620E0FA1903E6F100641A95 /* TumblrPhotoViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TumblrPhotoViewer-Prefix.pch"; sourceTree = "<group>"; };
+		A620E0FB1903E6F100641A95 /* USTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USTAppDelegate.h; sourceTree = "<group>"; };
+		A620E0FC1903E6F100641A95 /* USTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USTAppDelegate.m; sourceTree = "<group>"; };
+		A620E0FF1903E6F100641A95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A620E1011903E6F100641A95 /* USTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USTViewController.h; sourceTree = "<group>"; };
+		A620E1021903E6F100641A95 /* USTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USTViewController.m; sourceTree = "<group>"; };
+		A620E1041903E6F100641A95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A620E10A1903E6F100641A95 /* TumblrPhotoViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblrPhotoViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A620E10B1903E6F100641A95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A620E1131903E6F100641A95 /* TumblrPhotoViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TumblrPhotoViewerTests-Info.plist"; sourceTree = "<group>"; };
+		A620E1151903E6F100641A95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A620E1171903E6F100641A95 /* TumblrPhotoViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TumblrPhotoViewerTests.m; sourceTree = "<group>"; };
+		A620E1221903E74000641A95 /* CGImageWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageWrapper.h; sourceTree = "<group>"; };
+		A620E1231903E74000641A95 /* CGImageWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageWrapper.m; sourceTree = "<group>"; };
+		A620E1241903E74000641A95 /* NSData+Download.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Download.h"; sourceTree = "<group>"; };
+		A620E1251903E74000641A95 /* NSData+Download.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Download.m"; sourceTree = "<group>"; };
+		A620E1261903E74000641A95 /* TumblrAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrAPI.h; sourceTree = "<group>"; };
+		A620E1271903E74000641A95 /* TumblrAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrAPI.m; sourceTree = "<group>"; };
+		A620E1281903E74000641A95 /* TumblrAPIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrAPIImage.h; sourceTree = "<group>"; };
+		A620E1291903E74000641A95 /* TumblrAPIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrAPIImage.m; sourceTree = "<group>"; };
+		A620E12A1903E74000641A95 /* TumblrImageQueryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrImageQueryResponse.h; sourceTree = "<group>"; };
+		A620E12B1903E74000641A95 /* TumblrImageQueryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrImageQueryResponse.m; sourceTree = "<group>"; };
+		A620E12C1903E74000641A95 /* TumblrImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrImageViewCell.h; sourceTree = "<group>"; };
+		A620E12D1903E74000641A95 /* TumblrImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrImageViewCell.m; sourceTree = "<group>"; };
+		A620E12E1903E74000641A95 /* TumblrImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrImageViewCell.xib; sourceTree = "<group>"; };
+		A620E12F1903E74000641A95 /* TumblrImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrImageViewController.h; sourceTree = "<group>"; };
+		A620E1301903E74000641A95 /* TumblrImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrImageViewController.m; sourceTree = "<group>"; };
+		A620E1311903E74000641A95 /* TumblrImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrImageViewController.xib; sourceTree = "<group>"; };
+		A620E1321903E74000641A95 /* TumblrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TumblrViewController.h; sourceTree = "<group>"; };
+		A620E1331903E74000641A95 /* TumblrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TumblrViewController.m; sourceTree = "<group>"; };
+		A620E1341903E74000641A95 /* TumblrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TumblrViewController.xib; sourceTree = "<group>"; };
+		A620E1411903E74500641A95 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A620E1421903E74500641A95 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A620E1431903E74500641A95 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A620E0E61903E6F100641A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A620E0EF1903E6F100641A95 /* CoreGraphics.framework in Frameworks */,
+				A620E0F11903E6F100641A95 /* UIKit.framework in Frameworks */,
+				A620E0ED1903E6F100641A95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A620E1071903E6F100641A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A620E10C1903E6F100641A95 /* XCTest.framework in Frameworks */,
+				A620E10E1903E6F100641A95 /* UIKit.framework in Frameworks */,
+				A620E10D1903E6F100641A95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A620E0E01903E6F100641A95 = {
+			isa = PBXGroup;
+			children = (
+				A620E0F21903E6F100641A95 /* TumblrPhotoViewer */,
+				A620E1111903E6F100641A95 /* TumblrPhotoViewerTests */,
+				A620E0EB1903E6F100641A95 /* Frameworks */,
+				A620E0EA1903E6F100641A95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A620E0EA1903E6F100641A95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A620E0E91903E6F100641A95 /* TumblrPhotoViewer.app */,
+				A620E10A1903E6F100641A95 /* TumblrPhotoViewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A620E0EB1903E6F100641A95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A620E0EC1903E6F100641A95 /* Foundation.framework */,
+				A620E0EE1903E6F100641A95 /* CoreGraphics.framework */,
+				A620E0F01903E6F100641A95 /* UIKit.framework */,
+				A620E10B1903E6F100641A95 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A620E0F21903E6F100641A95 /* TumblrPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				A620E1401903E74500641A95 /* MBProgressHUD */,
+				A620E0FB1903E6F100641A95 /* USTAppDelegate.h */,
+				A620E0FC1903E6F100641A95 /* USTAppDelegate.m */,
+				A620E0FE1903E6F100641A95 /* Main.storyboard */,
+				A620E1011903E6F100641A95 /* USTViewController.h */,
+				A620E1021903E6F100641A95 /* USTViewController.m */,
+				A620E1211903E74000641A95 /* src */,
+				A620E1041903E6F100641A95 /* Images.xcassets */,
+				A620E0F31903E6F100641A95 /* Supporting Files */,
+			);
+			path = TumblrPhotoViewer;
+			sourceTree = "<group>";
+		};
+		A620E0F31903E6F100641A95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A620E0F41903E6F100641A95 /* TumblrPhotoViewer-Info.plist */,
+				A620E0F51903E6F100641A95 /* InfoPlist.strings */,
+				A620E0F81903E6F100641A95 /* main.m */,
+				A620E0FA1903E6F100641A95 /* TumblrPhotoViewer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A620E1111903E6F100641A95 /* TumblrPhotoViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A620E1171903E6F100641A95 /* TumblrPhotoViewerTests.m */,
+				A620E1121903E6F100641A95 /* Supporting Files */,
+			);
+			path = TumblrPhotoViewerTests;
+			sourceTree = "<group>";
+		};
+		A620E1121903E6F100641A95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A620E1131903E6F100641A95 /* TumblrPhotoViewerTests-Info.plist */,
+				A620E1141903E6F100641A95 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A620E1211903E74000641A95 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A620E1221903E74000641A95 /* CGImageWrapper.h */,
+				A620E1231903E74000641A95 /* CGImageWrapper.m */,
+				A620E1241903E74000641A95 /* NSData+Download.h */,
+				A620E1251903E74000641A95 /* NSData+Download.m */,
+				A620E1261903E74000641A95 /* TumblrAPI.h */,
+				A620E1271903E74000641A95 /* TumblrAPI.m */,
+				A620E1281903E74000641A95 /* TumblrAPIImage.h */,
+				A620E1291903E74000641A95 /* TumblrAPIImage.m */,
+				A620E12A1903E74000641A95 /* TumblrImageQueryResponse.h */,
+				A620E12B1903E74000641A95 /* TumblrImageQueryResponse.m */,
+				A620E12C1903E74000641A95 /* TumblrImageViewCell.h */,
+				A620E12D1903E74000641A95 /* TumblrImageViewCell.m */,
+				A620E12E1903E74000641A95 /* TumblrImageViewCell.xib */,
+				A620E12F1903E74000641A95 /* TumblrImageViewController.h */,
+				A620E1301903E74000641A95 /* TumblrImageViewController.m */,
+				A620E1311903E74000641A95 /* TumblrImageViewController.xib */,
+				A620E1321903E74000641A95 /* TumblrViewController.h */,
+				A620E1331903E74000641A95 /* TumblrViewController.m */,
+				A620E1341903E74000641A95 /* TumblrViewController.xib */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		A620E1401903E74500641A95 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A620E1411903E74500641A95 /* LICENSE */,
+				A620E1421903E74500641A95 /* MBProgressHUD.h */,
+				A620E1431903E74500641A95 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = lib/MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A620E0E81903E6F100641A95 /* TumblrPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A620E11B1903E6F100641A95 /* Build configuration list for PBXNativeTarget "TumblrPhotoViewer" */;
+			buildPhases = (
+				A620E0E51903E6F100641A95 /* Sources */,
+				A620E0E61903E6F100641A95 /* Frameworks */,
+				A620E0E71903E6F100641A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TumblrPhotoViewer;
+			productName = TumblrPhotoViewer;
+			productReference = A620E0E91903E6F100641A95 /* TumblrPhotoViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A620E1091903E6F100641A95 /* TumblrPhotoViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A620E11E1903E6F100641A95 /* Build configuration list for PBXNativeTarget "TumblrPhotoViewerTests" */;
+			buildPhases = (
+				A620E1061903E6F100641A95 /* Sources */,
+				A620E1071903E6F100641A95 /* Frameworks */,
+				A620E1081903E6F100641A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A620E1101903E6F100641A95 /* PBXTargetDependency */,
+			);
+			name = TumblrPhotoViewerTests;
+			productName = TumblrPhotoViewerTests;
+			productReference = A620E10A1903E6F100641A95 /* TumblrPhotoViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A620E0E11903E6F100641A95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UST;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Ushio;
+				TargetAttributes = {
+					A620E1091903E6F100641A95 = {
+						TestTargetID = A620E0E81903E6F100641A95;
+					};
+				};
+			};
+			buildConfigurationList = A620E0E41903E6F100641A95 /* Build configuration list for PBXProject "TumblrPhotoViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A620E0E01903E6F100641A95;
+			productRefGroup = A620E0EA1903E6F100641A95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A620E0E81903E6F100641A95 /* TumblrPhotoViewer */,
+				A620E1091903E6F100641A95 /* TumblrPhotoViewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A620E0E71903E6F100641A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A620E13D1903E74000641A95 /* TumblrImageViewController.xib in Resources */,
+				A620E13B1903E74000641A95 /* TumblrImageViewCell.xib in Resources */,
+				A620E1051903E6F100641A95 /* Images.xcassets in Resources */,
+				A620E1441903E74500641A95 /* LICENSE in Resources */,
+				A620E0F71903E6F100641A95 /* InfoPlist.strings in Resources */,
+				A620E13F1903E74000641A95 /* TumblrViewController.xib in Resources */,
+				A620E1001903E6F100641A95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A620E1081903E6F100641A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A620E1161903E6F100641A95 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A620E0E51903E6F100641A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A620E13C1903E74000641A95 /* TumblrImageViewController.m in Sources */,
+				A620E1381903E74000641A95 /* TumblrAPIImage.m in Sources */,
+				A620E0F91903E6F100641A95 /* main.m in Sources */,
+				A620E1351903E74000641A95 /* CGImageWrapper.m in Sources */,
+				A620E1391903E74000641A95 /* TumblrImageQueryResponse.m in Sources */,
+				A620E1031903E6F100641A95 /* USTViewController.m in Sources */,
+				A620E13A1903E74000641A95 /* TumblrImageViewCell.m in Sources */,
+				A620E1451903E74500641A95 /* MBProgressHUD.m in Sources */,
+				A620E0FD1903E6F100641A95 /* USTAppDelegate.m in Sources */,
+				A620E13E1903E74000641A95 /* TumblrViewController.m in Sources */,
+				A620E1371903E74000641A95 /* TumblrAPI.m in Sources */,
+				A620E1361903E74000641A95 /* NSData+Download.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A620E1061903E6F100641A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A620E1181903E6F100641A95 /* TumblrPhotoViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A620E1101903E6F100641A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A620E0E81903E6F100641A95 /* TumblrPhotoViewer */;
+			targetProxy = A620E10F1903E6F100641A95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A620E0F51903E6F100641A95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A620E0F61903E6F100641A95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A620E0FE1903E6F100641A95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A620E0FF1903E6F100641A95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A620E1141903E6F100641A95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A620E1151903E6F100641A95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A620E1191903E6F100641A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A620E11A1903E6F100641A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A620E11C1903E6F100641A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TumblrPhotoViewer/TumblrPhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "TumblrPhotoViewer/TumblrPhotoViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44BF9FA9-E469-428F-85B1-F0D8DA4C9C7A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A620E11D1903E6F100641A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TumblrPhotoViewer/TumblrPhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "TumblrPhotoViewer/TumblrPhotoViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "44BF9FA9-E469-428F-85B1-F0D8DA4C9C7A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A620E11F1903E6F100641A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TumblrPhotoViewer.app/TumblrPhotoViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TumblrPhotoViewer/TumblrPhotoViewer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TumblrPhotoViewerTests/TumblrPhotoViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A620E1201903E6F100641A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TumblrPhotoViewer.app/TumblrPhotoViewer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TumblrPhotoViewer/TumblrPhotoViewer-Prefix.pch";
+				INFOPLIST_FILE = "TumblrPhotoViewerTests/TumblrPhotoViewerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A620E0E41903E6F100641A95 /* Build configuration list for PBXProject "TumblrPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A620E1191903E6F100641A95 /* Debug */,
+				A620E11A1903E6F100641A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A620E11B1903E6F100641A95 /* Build configuration list for PBXNativeTarget "TumblrPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A620E11C1903E6F100641A95 /* Debug */,
+				A620E11D1903E6F100641A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A620E11E1903E6F100641A95 /* Build configuration list for PBXNativeTarget "TumblrPhotoViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A620E11F1903E6F100641A95 /* Debug */,
+				A620E1201903E6F100641A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A620E0E11903E6F100641A95 /* Project object */;
+}
